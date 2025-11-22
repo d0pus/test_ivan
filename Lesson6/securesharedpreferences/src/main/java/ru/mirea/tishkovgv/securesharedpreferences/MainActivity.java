@@ -40,17 +40,17 @@ public class MainActivity extends AppCompatActivity {
             );
 
             // Получаем имя поэта
-            String actorName = secureSharedPreferences.getString("secure", "Рыцарь");
+            String actorName = secureSharedPreferences.getString("secure", "рыцарь");
             tVName.setText(actorName);
 
             // Заносим строки с именем файла в  SharedPreferences.Editor
             SharedPreferences.Editor editor = secureSharedPreferences.edit();
-            editor.putString("secure", "Рыцарь");
-            editor.putString("Knight", "Knight");
+            editor.putString("secure", "рыцарь");
+            editor.putString("knight", "knight");
             editor.apply();
 
             // Получаем имя файла изображения из SharedPreferences
-            String photoName = secureSharedPreferences.getString("Knight", "Knight");
+            String photoName = secureSharedPreferences.getString("knight", "knight");
 
             // Получаем ресурс изображения из папки raw по имени
             int imageResId = getResources().getIdentifier(photoName, "raw", getPackageName());
