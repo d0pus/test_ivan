@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.tishkovgv.httpurlconnection"
+    namespace = "ru.mirea.matveevivan.httpurlconnection"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "ru.mirea.tishkovgv.httpurlconnection"
+        applicationId = "ru.mirea.matveevivan.httpurlconnection"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

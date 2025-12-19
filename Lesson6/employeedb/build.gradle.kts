@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.tishkovgv.employeedb"
+    namespace = "ru.mirea.matveevivan.employeedb"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "ru.mirea.tishkovgv.employeedb"
+        applicationId = "ru.mirea.matveevivan.employeedb"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

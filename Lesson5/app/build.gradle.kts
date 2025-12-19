@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.tishkovgv.lesson5"
+    namespace = "ru.mirea.matveevivan.lesson5"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "ru.mirea.tishkovgv.lesson5"
+        applicationId = "ru.mirea.matveevivan.lesson5"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

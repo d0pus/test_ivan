@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.tishkovgv.audiorecord"
+    namespace = "ru.mirea.matveevivan.audiorecord"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "ru.mirea.tishkovgv.audiorecord"
+        applicationId = "ru.mirea.matveevivan.audiorecord"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

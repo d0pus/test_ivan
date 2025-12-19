@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.tishkovgv.accelerometer"
+    namespace = "ru.mirea.matveevivan.accelerometer"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "ru.mirea.tishkovgv.accelerometer"
+        applicationId = "ru.mirea.matveevivan.accelerometer"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

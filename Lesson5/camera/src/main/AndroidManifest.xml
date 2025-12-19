@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ru.mirea.tishkovgv.camera">
+    package="ru.mirea.matveevivan.camera">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -22,7 +22,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="ru.mirea.tishkovgv.camera.fileprovider"
+            android:authorities="ru.mirea.matveevivan.camera.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
